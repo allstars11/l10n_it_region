@@ -38,6 +38,7 @@ different state codes.
     'data': [
         'data/res_country_state_data.xml',
     ],
+    'images': ['static/description/main_screenshot.png'],
     'installable': True,
     'auto_install': False,
     'application': False,
