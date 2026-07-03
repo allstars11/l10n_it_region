@@ -9,9 +9,9 @@ Questo modulo aggiunge le 20 regioni amministrative italiane come
 record res.country.state collegati all'Italia, utilizzando i codici
 ISO 3166-2:IT (da IT-01 a IT-20).
 
-Nota: la localizzazione base di Odoo include già le *province* italiane
+Nota: la localizzazione base di Odoo include gia' le province italiane
 (es. Milano, Roma, Torino) come record res.country.state. Questo modulo
-aggiunge le *regioni* (es. Lombardia, Lazio, Piemonte), a un livello di
+aggiunge le regioni (es. Lombardia, Lazio, Piemonte), a un livello di
 dettaglio piu' ampio, come record di stato aggiuntivi. I due insiemi
 convivono senza conflitti poiche' utilizzano codici di stato diversi.
 
