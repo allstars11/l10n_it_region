@@ -15,7 +15,7 @@ adds the coarser-grained *regions* (e.g. Lombardia, Lazio, Piemonte)
 as additional state records. Both sets coexist since they use
 different state codes.
     """,
-    'version': '17.0.1.0.0',
+    'version': '19.0.1.0.0',
     'category': 'Localization',
     'author': 'DigitalForce',
     'website': 'https://www.digitalforce.it',
