@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="region_it_01" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Piemonte</field>
+            <field name="code">IT-01</field>
+        </record>
+
+        <record id="region_it_02" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Valle d'Aosta</field>
+            <field name="code">IT-02</field>
+        </record>
+
+        <record id="region_it_03" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Lombardia</field>
+            <field name="code">IT-03</field>
+        </record>
+
+        <record id="region_it_04" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Trentino-Alto Adige</field>
+            <field name="code">IT-04</field>
+        </record>
+
+        <record id="region_it_05" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Veneto</field>
+            <field name="code">IT-05</field>
+        </record>
+
+        <record id="region_it_06" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Friuli-Venezia Giulia</field>
+            <field name="code">IT-06</field>
+        </record>
+
+        <record id="region_it_07" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Liguria</field>
+            <field name="code">IT-07</field>
+        </record>
+
+        <record id="region_it_08" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Emilia-Romagna</field>
+            <field name="code">IT-08</field>
+        </record>
+
+        <record id="region_it_09" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Toscana</field>
+            <field name="code">IT-09</field>
+        </record>
+
+        <record id="region_it_10" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Umbria</field>
+            <field name="code">IT-10</field>
+        </record>
+
+        <record id="region_it_11" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Marche</field>
+            <field name="code">IT-11</field>
+        </record>
+
+        <record id="region_it_12" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Lazio</field>
+            <field name="code">IT-12</field>
+        </record>
+
+        <record id="region_it_13" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Abruzzo</field>
+            <field name="code">IT-13</field>
+        </record>
+
+        <record id="region_it_14" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Molise</field>
+            <field name="code">IT-14</field>
+        </record>
+
+        <record id="region_it_15" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Campania</field>
+            <field name="code">IT-15</field>
+        </record>
+
+        <record id="region_it_16" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Puglia</field>
+            <field name="code">IT-16</field>
+        </record>
+
+        <record id="region_it_17" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Basilicata</field>
+            <field name="code">IT-17</field>
+        </record>
+
+        <record id="region_it_18" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Calabria</field>
+            <field name="code">IT-18</field>
+        </record>
+
+        <record id="region_it_19" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Sicilia</field>
+            <field name="code">IT-19</field>
+        </record>
+
+        <record id="region_it_20" model="res.country.state">
+            <field name="country_id" ref="base.it"/>
+            <field name="name">Sardegna</field>
+            <field name="code">IT-20</field>
+        </record>
+
+    </data>
+</odoo>
