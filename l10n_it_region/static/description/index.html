@@ -1,18 +1,83 @@
 <section class="oe_container">
     <div class="row">
+        <div class="col-12 text-center">
+            <img src="banner.png" style="max-width:100%; margin-bottom: 20px;" alt="Italia - Regioni"/>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col-12">
-            <h2 class="text-center">Italy - Regions</h2>
+            <h2 class="text-center">Regioni Italiane</h2>
             <p class="text-center text-muted">
-                Adds the 20 Italian administrative regions as selectable states for Italy
+                Aggiunge le 20 regioni italiane come stati selezionabili per l'Italia
             </p>
         </div>
     </div>
 
     <div class="row mt-4">
         <div class="col-12">
-            <h3>Overview</h3>
+            <h3>Panoramica</h3>
             <p>
-                Odoo's base localization ships the Italian <strong>provinces</strong>
+                La localizzazione base di Odoo include già le <strong>province</strong>
+                italiane (Milano, Roma, Torino, ecc.) come stati collegati all'Italia.
+                Questo modulo aggiunge le 20 <strong>regioni</strong> (Piemonte,
+                Lombardia, Lazio, Sicilia, ecc.) come ulteriori record di stato,
+                utilizzando i codici ufficiali ISO 3166-2:IT (da IT-01 a IT-20).
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3>Caratteristiche</h3>
+            <ul>
+                <li>Tutte le 20 regioni italiane aggiunte come record <code>res.country.state</code></li>
+                <li>Codici ufficiali ISO 3166-2:IT (IT-01 – IT-20)</li>
+                <li>Modulo di sola configurazione dati &mdash; nessuna logica Python, nessuna dipendenza oltre a <code>base</code></li>
+                <li>Installabile senza conflitti insieme alle province italiane già presenti</li>
+                <li>I record sono <code>noupdate</code>, quindi gli utenti possono modificarli o rimuoverli liberamente senza che gli aggiornamenti del modulo li sovrascrivano</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3>Nota</h3>
+            <p>
+                Dopo l'installazione di questo modulo, il campo Stato per gli indirizzi
+                italiani mostrerà sia le province che le regioni insieme. Scegliere il
+                livello di dettaglio più adatto al proprio caso d'uso (ad esempio
+                reportistica o raggruppamento per regione rispetto a un indirizzo
+                preciso a livello di provincia).
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3>Assistenza</h3>
+            <p>
+                DigitalForce &mdash; <a href="https://www.digitalforce.it" target="_blank">www.digitalforce.it</a>
+            </p>
+        </div>
+    </div>
+
+    <hr class="mt-4 mb-4"/>
+
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center" style="color:#888;">Italy - Regions</h2>
+            <p class="text-center text-muted">
+                Adds the 20 Italian regions as selectable states for Italy
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3 style="color:#888;">Overview</h3>
+            <p style="color:#888;">
+                Odoo's base localization already ships the Italian <strong>provinces</strong>
                 (Milano, Roma, Torino, etc.) as states for Italy. This module adds the
                 20 <strong>regions</strong> (Piemonte, Lombardia, Lazio, Sicilia, etc.)
                 as additional state records, using the official ISO 3166-2:IT region
@@ -23,8 +88,8 @@
 
     <div class="row mt-4">
         <div class="col-12">
-            <h3>Features</h3>
-            <ul>
+            <h3 style="color:#888;">Features</h3>
+            <ul style="color:#888;">
                 <li>All 20 Italian regions added as <code>res.country.state</code> records</li>
                 <li>Official ISO 3166-2:IT codes (IT-01 – IT-20)</li>
                 <li>Pure data module &mdash; no Python logic, no dependencies beyond <code>base</code></li>
@@ -36,8 +101,8 @@
 
     <div class="row mt-4">
         <div class="col-12">
-            <h3>Note</h3>
-            <p>
+            <h3 style="color:#888;">Note</h3>
+            <p style="color:#888;">
                 After installing this module, the State field for Italian addresses
                 will list both provinces and regions together. Choose the level of
                 detail appropriate to your use case (e.g. reporting or grouping by
@@ -48,8 +113,8 @@
 
     <div class="row mt-4">
         <div class="col-12">
-            <h3>Support</h3>
-            <p>
+            <h3 style="color:#888;">Support</h3>
+            <p style="color:#888;">
                 DigitalForce &mdash; <a href="https://www.digitalforce.it" target="_blank">www.digitalforce.it</a>
             </p>
         </div>
